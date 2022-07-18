@@ -1,0 +1,19 @@
+{
+    "name": "alambagaskara/hello-lib",
+    "description": "Library Composer Hello",
+    "type": "library",
+    "authors": [
+        {
+            "name": "RestuAlamBagaskara",
+            "email": "alambagaskara18@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Bagaskara\\BelajarComposer\\": "src/"
+        }
+    },
+    "require": {
+        "php" : ">=8.0"
+    }
+}
